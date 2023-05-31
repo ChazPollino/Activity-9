@@ -1,0 +1,109 @@
+1- public int sum(int num1, num2)
+{
+   return num1 + num2;
+}
+
+2 public double average(double num1, double num2, double num3, double num4, double num5)
+{
+  return (num1 + num2 + num3 + num4 + num5) / 5;
+}
+
+3- public int sum()
+{ 
+  random intnum = new Random();
+  intRanNum1 = intNum.Next();
+  intRanNum2 = intNum.Next():
+  return RanNum1 + RanNum2;
+}
+
+ 4- public bool divideBythree(int num1, int num2, int num3)
+{
+  int sum = num1 + num2 + num3;
+  if (sum % 3 ==0)
+  {
+     return true;
+  }
+  else
+  {
+     return false;
+  }
+ 
+}
+
+5- public string fewerchac (string str1, string str2)
+{
+   if (str1.length > str2.length)
+   {
+       return str2;
+   }
+   else
+   {
+       return str1;
+   }
+}
+
+6- public double largestVal (double [] doubleValNum)
+{
+  double largestVal = 0.0;
+  for(int x = 0; x < doubleValNum, i++)
+  {
+     if (doubleValNum[x] > largestVal)
+     {
+           largestVal = doubleValNum[x];
+     }
+  }
+  return largestVal;
+
+7- public int [] generatearray()
+{
+    intint[] intArrray = new int[50];
+    random intNum = new Random();
+    for(int i = 0; i < 50;, i++)
+    {
+      int RandomVal = intNums.Next();
+      intArray[x] = RandomVal;
+    }
+    return intArray
+}
+
+8- public bool BoolVal(bool bool1, bool bool2)
+{
+   if (bool1 == bool2)
+   
+   {
+      return true;
+   }
+   else
+   {
+      return false;
+   }
+}
+
+9- public double ReturnProduct(int Val1, Double Val2)
+{
+    double product = Val1 * Val2;
+    return product;
+}
+
+10- public int ArrayReturn(int[x] 2dArray)
+{
+   const int First = 5;
+   const int Second = 10;
+   int[x] values = new int[First, Second];
+   int entries = 0;
+  
+   for(int Third=0, Third < First; Third++)
+   {
+   
+       for (int forth = 0; forth < Second; forth++)
+       {
+             entries += 2dArray[third,forth];
+       }
+   }
+   int average = (entries) / (First * Second);
+   return average;
+}
+
+ 
+
+
